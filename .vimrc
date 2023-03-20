@@ -16,7 +16,7 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'scrooloose/nerdtree'
 
 " Syntax
-Plugin 'vim-syntastic/syntastic'
+"Plugin 'vim-syntastic/syntastic'
 Plugin 'StanAngeloff/php.vim'
 Plugin 'stephpy/vim-php-cs-fixer'
 
@@ -46,7 +46,7 @@ set expandtab
 set laststatus=2
 
 " Enable highlighting of the current line
-set cursorline
+"set cursorline
 
 " Set Ctags file
 set tags=tags;
