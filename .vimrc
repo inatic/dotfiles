@@ -52,8 +52,12 @@ set laststatus=2
 set tags=tags;
 
 """""""""""""""""""""""""""""""""""""
-" Mappings configurationn
+" Mappings configuration
 """""""""""""""""""""""""""""""""""""
 nmap <F7> :NERDTreeToggle<CR>
 nmap <F8> :TagbarToggle<CR>
 
+"""""""""""""""""""""""""""""""""""""
+" Autocommands
+"""""""""""""""""""""""""""""""""""""
+au FileType xml setlocal equalprg=xmllint\ --format\ --recover\ -\ 2>/dev/null
