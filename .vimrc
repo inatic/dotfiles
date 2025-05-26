@@ -27,6 +27,7 @@ Plugin 'phpactor/phpactor'
 Plugin 'majutsushi/tagbar'
 
 " Vdebug
+" install vim-nox package on Debian/Ubuntu
 Plugin 'vim-vdebug/vdebug'
 
 call vundle#end()            " required
