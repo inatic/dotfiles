@@ -26,6 +26,9 @@ Plugin 'phpactor/phpactor'
 " Outline
 Plugin 'majutsushi/tagbar'
 
+" Vdebug
+Plugin 'vim-vdebug/vdebug'
+
 call vundle#end()            " required
 filetype plugin indent on    " required
 """" END Vundle Configuration 
